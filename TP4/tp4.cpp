@@ -50,6 +50,7 @@ void encode(const char* inFilename, vector<unsigned char>& inImage, unsigned int
 
 int main(int inArgc, char *inArgv[])
 {
+    int test = 0;
     if(inArgc < 3 or inArgc > 4) usage(inArgv[0]);
     string lFilename = inArgv[1];
     string lOutFilename;
