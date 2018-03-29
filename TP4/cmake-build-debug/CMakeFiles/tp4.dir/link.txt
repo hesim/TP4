@@ -1,0 +1,1 @@
+/usr/local/bin/g++-7   -std=c++11 -fopenmp -g   CMakeFiles/tp4.dir/PACC/Tokenizer.cpp.o CMakeFiles/tp4.dir/lib/lodepng.cpp.o CMakeFiles/tp4.dir/tp4.cpp.o  -o tp4 

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tp2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/herve/CLionProjects/TP4/TP4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/herve/CLionProjects/TP4/TP4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/herve/CLionProjects/TP4/TP4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp4">
+				<Option output="/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/tp4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/herve/CLionProjects/TP4/TP4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp4"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp4/fast">
+				<Option output="/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/tp4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/herve/CLionProjects/TP4/TP4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp4/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/herve/CLionProjects/TP4/TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/PACC/Assert.hpp">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/PACC/Tokenizer.cpp">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/PACC/Tokenizer.hpp">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/PACC/config.hpp">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/exemple.png">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/lib/Chrono.hpp">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/lib/lodepng.cpp">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/lib/lodepng.h">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/makefile">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/noyau_flou">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/noyau_identite">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/tp4.cpp">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/home/herve/CLionProjects/TP4/TP4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
