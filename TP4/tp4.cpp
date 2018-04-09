@@ -113,8 +113,8 @@ void executerParallel(string fileName, string fichierNoyau, string outFileName){
     //Variables temporaires pour les canaux de l'image
     double lR, lG, lB;
 
-    // #pragma acc kernels
-    #pragma acc parallel loop
+    #pragma acc kernels loop gang(32)
+    // #pragma acc parallel loop
     for(int x = lHalfK; x < (int)lWidth - lHalfK; x++)
     {
         #pragma acc loop independent
