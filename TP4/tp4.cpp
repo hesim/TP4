@@ -90,8 +90,8 @@ void executerParallel(string fileName, string fichierNoyau, string outFileName){
     //Lecture du filtre
     double* lFilter = new double[lK*lK];
 
-    //#pragma whynot
     //#pragma acc parallel loop // Ne fonctionne pas : 'lToken' referenced in target region does not have a mappable type
+    //#pragma acc kernels
     for (int i = 0; i < lK; i++) {
         for (int j = 0; j < lK; j++) {
             lTok.getNextToken(lToken);
